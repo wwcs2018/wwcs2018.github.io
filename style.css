@@ -1,0 +1,182 @@
+
+body {
+	/*background-color: #D50032;*/
+}
+
+
+.main_body {
+    background-color: #FFCD00;
+    color: black;
+    letter-spacing: 1px;
+    line-height: 110%;
+	margin: 0 auto;
+	width: 800px;
+	padding: 30px;
+	margin-top: -10px;
+	/*font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Cabin', Helvetica, Arial, sans-serif;
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;*/
+	font-family: 'Raleway', Arial, sans-serif; 
+	font-size: 20px;
+	text-align:justify;
+	/*font-weight: bold;*/
+	
+}
+
+.social-buttons {
+	position:relative;
+	top: -3px;
+	margin-bottom: -5px;
+	float: right;
+	/**display:block;**/
+}
+
+.logo {
+	background: url(logo_bw.svg) no-repeat; 
+	background-position: 50% 170px;
+    background-attachment: fixed;
+	background-size: 500px 500px;
+}
+
+p {
+	color: black;
+	font-size: 20px;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+}
+
+.home {
+	height: 400px;
+	width: 100%;
+	padding-top: 200px;
+	margin-top: 70px;
+	padding-bottom: 50px;
+	/*background-color: #FFCD009B;*/
+	font-size: 24px;
+}
+
+h1 {
+	text-align: center;
+	/*font-family: 'Dancing Script', Georgia, Times, serif;
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-family: 'Corben', Georgia, Times, serif;*/
+	font-family: 'Bitter', Arial, sans-serif;
+	font-size: 30px;
+	
+}
+
+h2 {
+	/*font-family: 'Dancing Script', Georgia, Times, serif;
+	font-family: 'Lobster', Georgia, Times, serif;
+	font-family: 'Corben', Georgia, Times, serif;*/
+        font-family: 'Bitter', Arial, Times, serif;
+
+	
+	padding-top: 200px;
+	margin-top: 70px;
+	border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+	border-width: 1px;
+	margin-bottom: 20px;
+}
+
+
+/* The navigation bar */
+.navbar {
+	/*background-color: #D50032;*/
+	background-color: #FFCD00;
+    color: #D50032;
+	overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 800px;
+	text-align: center;
+	padding: 0px;
+	padding-top: 30px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    letter-spacing: 0px;
+
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(120%);
+}
+
+.carousel-inner img {
+    display: block;
+    margin: auto;
+    width: 80%;
+	margin-bottom:190px;
+}
+
+.contact {
+	margin-left: 300px;
+	height:300px;
+	text-align:left;
+	/*padding-bottom: 600px;*/
+}
+
+.content {
+	line-height: 130%;
+	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*background-color: #FFCD00BB;*/
+	font-size: 24px;
+	/**/
+}
+
+.foot {
+	background-color: #D50032;
+	height: 300px;
+	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer_content {
+	padding-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.foot_img {
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-right: 20px;
+	/*padding-top: 50px;
+	padding-bottom: 50px;*/
+}
+
+
+
+.twitter {
+	/*width: 200px;*/
+	height: 300px;
+	float: left;
+}
+
+
+hr.style1 {
+	border-top: 3px solid #D50032;
+	/*height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;*/
+}
