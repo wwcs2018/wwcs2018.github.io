@@ -165,7 +165,23 @@ h2 {
 	padding-bottom: 50px;*/
 }
 
+.home ul {
+    display: table;
+    width: 90%;
+}
 
+.home li {
+    display: table-cell;
+    width: 33%;
+}
+
+.home li:last-child {
+    text-align: right;
+}
+
+.home {
+	line-height: 130%;
+}
 
 .twitter {
 	/*width: 200px;*/
