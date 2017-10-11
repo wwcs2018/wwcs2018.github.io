@@ -165,6 +165,17 @@ h2 {
 	padding-bottom: 50px;*/
 }
 
+.organisers ul {
+    display: table;
+    width: 90%;
+}
+
+.organisers li {
+    display: table-cell;
+    width: 25%;
+	text-align: center;
+}
+
 .home ul {
     display: table;
     width: 90%;
