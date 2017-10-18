@@ -1182,6 +1182,7 @@ a.menu-toggle {
 	transform: translateY(-1.2rem);
 }
 .intro-content h1 {
+	 padding-top: 2.5cm;
 	color: #FFFFFF;
 	font-family: "merriweather-bold", serif;
 	font-size: 4.4rem;
