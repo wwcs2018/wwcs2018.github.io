@@ -2406,3 +2406,120 @@ footer ul li {
 /*# sourceMappingURL=main.css.map */
 
 
+
+/** 
+ * ===================================================================
+ * sponsorpage section
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+#sponsorpage {
+	background: #FFFFFF;
+	padding-top: 12rem;
+	padding-bottom: 15rem;
+	overflow: hidden;
+}
+.process-content {
+	position: relative;
+	text-align: center;
+}
+.process-content .right-side,
+.process-content .left-side,
+.process-content .image-part {
+	width: 33.33333%;
+	font-size: 15px;
+	line-height: 27px;
+}
+.process-content .right-side, .process-content .left-side {
+	padding: 0 6% 24px;
+	position: absolute;
+	top: 0;
+}
+.process-content .right-side {
+	right: 0;
+}
+.process-content .left-side {
+	left: 0;
+}
+.process-content .image-part {
+	margin: 0 auto;
+	height: 660px;
+	background-image: url("../images/appdesign.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+.process-content .item[data-item]::before {
+	background: #38424e;
+	color: #FFFFFF;
+	border-radius: 100%;
+	font-family: "montserrat-bold", sans-serif;
+	content: attr(data-item);
+	display: inline-block;
+	font-size: 18px;
+	height: 42px;
+	width: 42px;
+	line-height: 42px;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 1.5rem;
+}
+.process-content h5 {
+	color: #05bca9;
+	font-size: 1.6rem;
+	line-height: 1.875;
+	letter-spacing: .2rem;
+	margin-bottom: .3rem;
+}
+
+/**
+ * responsive:
+ * process
+ * -
+ */
+
+@media only screen and (max-width:1024px) {
+	.process-content .right-side, .process-content .left-side {
+		padding: 0 3% 24px;
+		width: 35%;
+	}
+	.process-content .image-part {
+		height: 600px;
+		width: 30%;
+	}
+}
+@media only screen and (max-width:768px) {
+	#sponsorpage {
+		padding-bottom: 27rem;
+	}
+	.process-content .right-side, .process-content .left-side {
+		position: static;
+		width: 100%;
+		max-width: 480px;
+		font-size: 1.6rem;
+		line-height: 3rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 0;
+	}
+	.process-content .image-part {
+		width: 300px;
+		position: absolute;
+		bottom: -630px;
+		left: 50%;
+		margin-left: -150px;
+	}
+}
+@media only screen and (max-width:400px) {
+	#sponsorpage {
+		padding-bottom: 21rem;
+	}
+	.process-content .image-part {
+		width: 230px;
+		bottom: -540px;
+		margin-left: -115px;
+	}
+}
