@@ -841,10 +841,10 @@ header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 42px;
+	width: 142px;
 	height: 42px;
 	background: url("../images/just_circle.png") no-repeat center;
-	background-size: 42px 42px;
+	background-size: 142px 42px;
 	-moz-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
@@ -857,9 +857,9 @@ header .logo a {
 	top: 0;
 }
 .sticky .logo a {
-	width: 38px;
+	width: 128px;
 	height: 38px;
-	background-size: 38px 38px;
+	background-size: 128px 38px;
 }
 
 /**
@@ -874,9 +874,9 @@ header .logo a {
 		padding: 6px 0;
 	}
 	header .logo a {
-		width: 38px;
+		width: 128px;
 		height: 38px;
-		background-size: 38px 38px;
+		background-size: 128px 38px;
 	}
 }
 
@@ -1182,6 +1182,7 @@ a.menu-toggle {
 	transform: translateY(-1.2rem);
 }
 .intro-content h1 {
+	 padding-top: 2.5cm;
 	color: #FFFFFF;
 	font-family: "merriweather-bold", serif;
 	font-size: 4.4rem;
