@@ -481,6 +481,12 @@ textarea {
 .block-1-6 .bgrid {
 	width: 16.66667%;
 }
+.block-1-5 .bgrid {
+	width: 20%;
+}
+.block-1-4 .bgrid {
+	width: 20%;
+}
 .block-1-4 .bgrid {
 	width: 25%;
 }
@@ -497,6 +503,7 @@ textarea {
  */
 
 .block-1-6 .bgrid:nth-child(6n+1),
+.block-1-5 .bgrid:nth-child(5n+1),
 .block-1-4 .bgrid:nth-child(4n+1),
 .block-1-3 .bgrid:nth-child(3n+1),
 .block-1-2 .bgrid:nth-child(2n+1) {
@@ -510,6 +517,9 @@ textarea {
 @media screen and (max-width:1024px) {
 	.block-s-1-6 .bgrid {
 		width: 16.66667%;
+	}
+	.block-s-1-5 .bgrid {
+		width: 20%;
 	}
 	.block-s-1-4 .bgrid {
 		width: 25%;
